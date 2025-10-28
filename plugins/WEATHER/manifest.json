@@ -12,13 +12,13 @@
       "name": "location",
       "required": true,
       "type": "string",
-      "description": "City name, state/country (e.g., 'London,UK' or 'New York,NY,US')"
+      "description": "City name, state/country"
     },
     {
       "name": "api_key",
       "required": false,
       "type": "string",
-      "description": "OpenWeatherMap API key (optional if OPENWEATHER_API_KEY environment variable is set)"
+      "description": "OpenWeatherMap API key"
     }
   ],
   "outputDefinitions": [
