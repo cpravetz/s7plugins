@@ -1,5 +1,5 @@
 {
-  "id": "improvement_planner",
+  "id": "plugin-IMPROVEMENT_PLANNER",
   "name": "Improvement Planner",
   "version": "1.0.0",
   "description": "Continuous improvement planning, tracking, and iteration",
@@ -88,5 +88,6 @@
         }
       }
     }
-  ]
+  ],
+  "verb": "IMPROVEMENT_PLANNER"
 }

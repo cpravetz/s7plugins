@@ -39,5 +39,11 @@
   "repository": {
     "type": "local"
   },
-  "tags": ["restaurant", "reservations", "booking", "availability"]
+  "tags": [
+    "restaurant",
+    "reservations",
+    "booking",
+    "availability"
+  ],
+  "version": "1.0.0"
 }

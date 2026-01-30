@@ -9,14 +9,21 @@
       "required": true,
       "type": "string",
       "description": "The action to perform",
-      "aliases": ["operation", "command"]
+      "aliases": [
+        "operation",
+        "command"
+      ]
     },
     {
       "name": "payload",
       "required": true,
       "type": "object",
       "description": "Action-specific parameters",
-      "aliases": ["data", "params", "parameters"]
+      "aliases": [
+        "data",
+        "params",
+        "parameters"
+      ]
     }
   ],
   "outputDefinitions": [
@@ -41,5 +48,11 @@
   "repository": {
     "type": "local"
   },
-  "tags": ["hotel", "operations", "room-management", "occupancy"]
+  "tags": [
+    "hotel",
+    "operations",
+    "room-management",
+    "occupancy"
+  ],
+  "version": "1.0.0"
 }

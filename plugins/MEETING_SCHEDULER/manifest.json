@@ -1,5 +1,5 @@
 {
-  "id": "meeting_scheduler",
+  "id": "plugin-MEETING_SCHEDULER",
   "name": "MEETING_SCHEDULER",
   "version": "1.0.0",
   "description": "MEETING_SCHEDULER plugin for cktMCS backend services",
@@ -44,5 +44,6 @@
     "logging": true,
     "in_memory_storage": true,
     "thread_safe": true
-  }
+  },
+  "verb": "MEETING_SCHEDULER"
 }

@@ -4,7 +4,16 @@
   "description": "Kubernetes cluster monitoring and orchestration intelligence tool. Monitors pod health, container image vulnerabilities, resource utilization, and provides cluster diagnostics.",
   "explanation": "Essential for CTOs managing containerized infrastructure. Provides real-time visibility into pod status, security risks in container images, resource constraints, and cluster health.",
   "semanticDescription": "Monitor and analyze Kubernetes cluster health, container security vulnerabilities, and resource allocation across pods and nodes.",
-  "capabilityKeywords": ["kubernetes", "container", "orchestration", "pod-health", "image-scanning", "resource-monitoring", "security", "cluster-diagnostics"],
+  "capabilityKeywords": [
+    "kubernetes",
+    "container",
+    "orchestration",
+    "pod-health",
+    "image-scanning",
+    "resource-monitoring",
+    "security",
+    "cluster-diagnostics"
+  ],
   "usageExamples": [
     "Get status of all pods in production namespace",
     "Scan container images for vulnerabilities",
@@ -33,7 +42,10 @@
       "type": "string",
       "required": false,
       "description": "Kubernetes namespace to query. Defaults to 'default'.",
-      "aliases": ["ns", "k8s_namespace"]
+      "aliases": [
+        "ns",
+        "k8s_namespace"
+      ]
     },
     {
       "name": "pod_name",
@@ -64,7 +76,12 @@
       "type": "string",
       "required": false,
       "description": "Minimum vulnerability severity to report: low, medium, high, critical. Defaults to 'high'.",
-      "enum": ["low", "medium", "high", "critical"]
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ]
     },
     {
       "name": "resource_threshold_percent",
@@ -109,5 +126,6 @@
     "type": "local",
     "url": "",
     "dependencies": {}
-  }
+  },
+  "version": "1.0.0"
 }

@@ -11,7 +11,12 @@
         "properties": {
           "backup_type": {
             "type": "string",
-            "enum": ["full", "incremental", "differential", "continuous"]
+            "enum": [
+              "full",
+              "incremental",
+              "differential",
+              "continuous"
+            ]
           }
         }
       }
@@ -22,24 +27,34 @@
       "inputSchema": {
         "type": "object",
         "properties": {
-          "recovery_target": { "type": "string" }
+          "recovery_target": {
+            "type": "string"
+          }
         }
       }
     },
     {
       "name": "check_backup_compliance",
       "description": "Check backup compliance",
-      "inputSchema": { "type": "object" }
+      "inputSchema": {
+        "type": "object"
+      }
     },
     {
       "name": "verify_failover_readiness",
       "description": "Verify failover readiness",
-      "inputSchema": { "type": "object" }
+      "inputSchema": {
+        "type": "object"
+      }
     },
     {
       "name": "get_recovery_metrics",
       "description": "Get comprehensive disaster recovery metrics",
-      "inputSchema": { "type": "object" }
+      "inputSchema": {
+        "type": "object"
+      }
     }
-  ]
+  ],
+  "id": "plugin-DISASTER_RECOVERY",
+  "verb": "DISASTER_RECOVERY"
 }

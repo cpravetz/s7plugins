@@ -11,7 +11,11 @@
         "properties": {
           "tool": {
             "type": "string",
-            "enum": ["terraform", "cloudformation", "both"],
+            "enum": [
+              "terraform",
+              "cloudformation",
+              "both"
+            ],
             "description": "IaC tool to scan"
           },
           "workspace": {
@@ -19,7 +23,9 @@
             "description": "Terraform workspace or CloudFormation stack name"
           }
         },
-        "required": ["tool"]
+        "required": [
+          "tool"
+        ]
       }
     },
     {
@@ -30,7 +36,11 @@
         "properties": {
           "tool": {
             "type": "string",
-            "enum": ["terraform", "cloudformation", "both"]
+            "enum": [
+              "terraform",
+              "cloudformation",
+              "both"
+            ]
           }
         }
       }
@@ -43,7 +53,12 @@
         "properties": {
           "severity_threshold": {
             "type": "string",
-            "enum": ["critical", "high", "medium", "low"]
+            "enum": [
+              "critical",
+              "high",
+              "medium",
+              "low"
+            ]
           }
         }
       }
@@ -61,5 +76,7 @@
         }
       }
     }
-  ]
+  ],
+  "id": "plugin-IAC_MONITORING",
+  "verb": "IAC_MONITORING"
 }

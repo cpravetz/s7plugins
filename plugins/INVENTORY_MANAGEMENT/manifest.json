@@ -39,5 +39,11 @@
   "repository": {
     "type": "local"
   },
-  "tags": ["restaurant", "inventory", "stock-management", "valuation"]
+  "tags": [
+    "restaurant",
+    "inventory",
+    "stock-management",
+    "valuation"
+  ],
+  "version": "1.0.0"
 }

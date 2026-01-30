@@ -11,11 +11,19 @@
         "properties": {
           "mesh_name": {
             "type": "string",
-            "enum": ["istio", "linkerd", "consul"]
+            "enum": [
+              "istio",
+              "linkerd",
+              "consul"
+            ]
           },
-          "namespace": { "type": "string" }
+          "namespace": {
+            "type": "string"
+          }
         },
-        "required": ["mesh_name"]
+        "required": [
+          "mesh_name"
+        ]
       }
     },
     {
@@ -24,8 +32,12 @@
       "inputSchema": {
         "type": "object",
         "properties": {
-          "mesh_name": { "type": "string" },
-          "namespace": { "type": "string" }
+          "mesh_name": {
+            "type": "string"
+          },
+          "namespace": {
+            "type": "string"
+          }
         }
       }
     },
@@ -35,9 +47,15 @@
       "inputSchema": {
         "type": "object",
         "properties": {
-          "mesh_name": { "type": "string" },
-          "namespace": { "type": "string" },
-          "latency_threshold_ms": { "type": "number" }
+          "mesh_name": {
+            "type": "string"
+          },
+          "namespace": {
+            "type": "string"
+          },
+          "latency_threshold_ms": {
+            "type": "number"
+          }
         }
       }
     },
@@ -47,8 +65,12 @@
       "inputSchema": {
         "type": "object",
         "properties": {
-          "mesh_name": { "type": "string" },
-          "namespace": { "type": "string" }
+          "mesh_name": {
+            "type": "string"
+          },
+          "namespace": {
+            "type": "string"
+          }
         }
       }
     },
@@ -58,10 +80,16 @@
       "inputSchema": {
         "type": "object",
         "properties": {
-          "mesh_name": { "type": "string" },
-          "namespace": { "type": "string" }
+          "mesh_name": {
+            "type": "string"
+          },
+          "namespace": {
+            "type": "string"
+          }
         }
       }
     }
-  ]
+  ],
+  "id": "plugin-SERVICE_MESH",
+  "verb": "SERVICE_MESH"
 }

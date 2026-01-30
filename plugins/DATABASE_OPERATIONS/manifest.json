@@ -1,5 +1,5 @@
 {
-  "id": "database_operations",
+  "id": "plugin-DATABASE_OPERATIONS",
   "name": "DATABASE_OPERATIONS",
   "version": "1.0.0",
   "description": "DATABASE_OPERATIONS plugin for cktMCS backend services",
@@ -44,5 +44,6 @@
     "logging": true,
     "in_memory_storage": true,
     "thread_safe": true
-  }
+  },
+  "verb": "DATABASE_OPERATIONS"
 }

@@ -4,7 +4,15 @@
   "description": "Cloud cost optimization and forecasting tool. Provides cost anomaly detection, spending trends, reserved instance recommendations, and waste identification.",
   "explanation": "Critical for CTOs managing cloud budgets. Identifies cost anomalies, forecasts spending, recommends reserved instance purchases, and detects unused resources.",
   "semanticDescription": "Analyze cloud spending patterns, detect anomalies, forecast future costs, and recommend cost optimization strategies including reserved instances and resource cleanup.",
-  "capabilityKeywords": ["cost-optimization", "cloud-spending", "forecasting", "anomaly-detection", "reserved-instances", "waste-identification", "budget-management"],
+  "capabilityKeywords": [
+    "cost-optimization",
+    "cloud-spending",
+    "forecasting",
+    "anomaly-detection",
+    "reserved-instances",
+    "waste-identification",
+    "budget-management"
+  ],
   "usageExamples": [
     "Analyze cloud spending for the last 30 days and identify trends",
     "Detect cost anomalies and unusual spending patterns",
@@ -47,7 +55,12 @@
       "type": "string",
       "required": false,
       "description": "Cloud provider to analyze. Defaults to 'aws'.",
-      "enum": ["aws", "gcp", "azure", "multi"]
+      "enum": [
+        "aws",
+        "gcp",
+        "azure",
+        "multi"
+      ]
     },
     {
       "name": "account_id",
@@ -66,7 +79,11 @@
       "type": "string",
       "required": false,
       "description": "Confidence level for recommendations: low, medium, high. Defaults to 'medium'.",
-      "enum": ["low", "medium", "high"]
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
     },
     {
       "name": "waste_threshold_percent",
@@ -116,5 +133,6 @@
     "type": "local",
     "url": "",
     "dependencies": {}
-  }
+  },
+  "version": "1.0.0"
 }

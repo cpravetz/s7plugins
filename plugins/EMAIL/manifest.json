@@ -1,5 +1,5 @@
 {
-  "id": "email",
+  "id": "plugin-EMAIL",
   "name": "EMAIL",
   "version": "1.0.0",
   "description": "EMAIL plugin for cktMCS backend services",
@@ -44,5 +44,6 @@
     "logging": true,
     "in_memory_storage": true,
     "thread_safe": true
-  }
+  },
+  "verb": "EMAIL"
 }

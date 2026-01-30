@@ -39,5 +39,11 @@
   "repository": {
     "type": "local"
   },
-  "tags": ["restaurant", "forecasting", "demand-analysis", "staffing-optimization"]
+  "tags": [
+    "restaurant",
+    "forecasting",
+    "demand-analysis",
+    "staffing-optimization"
+  ],
+  "version": "1.0.0"
 }
